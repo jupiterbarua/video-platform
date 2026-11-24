@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars (ignored by git). Values come from: terraform -chdir=../10-foundation output
+github_repository = "jupiterbarua/video-platform"
+state_bucket      = "vip-tfstate-123456789012"
+oidc_provider_arn = "arn:aws:iam::123456789012:oidc-provider/token.actions.githubusercontent.com"

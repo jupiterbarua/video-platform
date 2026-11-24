@@ -1,0 +1,3 @@
+# Copy to terraform.tfvars (ignored by git) and fill in.
+github_repository   = "jupiterbarua/video-platform"
+budget_alert_emails = ["you@example.com"]

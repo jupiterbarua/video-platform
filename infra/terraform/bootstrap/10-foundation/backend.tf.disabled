@@ -1,0 +1,7 @@
+# Rename to backend.tf after the first apply of this stack, then run:
+#   terraform init -migrate-state -backend-config=../backend.hcl
+terraform {
+  backend "s3" {
+    key = "bootstrap/10-foundation.tfstate"
+  }
+}

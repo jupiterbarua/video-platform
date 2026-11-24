@@ -1,0 +1,7 @@
+# Copy to backend.hcl (ignored by git) after stack 10-foundation is applied.
+# Used by every bootstrap stack: terraform init -backend-config=../backend.hcl
+bucket       = "vip-tfstate-123456789012"
+region       = "eu-central-1"
+profile      = "vip"
+encrypt      = true
+use_lockfile = true
